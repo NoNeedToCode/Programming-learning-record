@@ -1,0 +1,22 @@
+import numpy as np
+a=np.array([10,20,30,40])
+b=np.arange(4)
+c=a+b
+print(a,b,c)
+c=a%3
+print(c)
+a=np.array([[2,3],[3,4]])
+b=b.reshape((2,2))
+c=a*b
+print(c)
+c=np.dot(a,b)
+print(c)
+c=a.dot(b)
+print(c)
+c=a@b
+print(c)
+d=np.random.random((2,4))
+print(d)
+print(np.sum(d,axis=1))
+print(np.max(d,axis=0))
+print(np.min(d,axis=1))
